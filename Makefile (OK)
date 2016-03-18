@@ -1,0 +1,9 @@
+all: 
+	g++ perf_top_example.c -o example
+
+run:
+	./example
+
+
+clean:
+	rm -f *.o example
