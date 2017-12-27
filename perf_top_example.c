@@ -12,7 +12,7 @@ double compute_pi_baseline(size_t N) {
     return pi * 4.0;
 }
 int main() {
-    printf("perf top example pid: %d\n", getpid());
+    printf("[20171217] perf top example pid: %d\n", getpid());
     sleep(10);
     compute_pi_baseline(50000000);
     return 0;
